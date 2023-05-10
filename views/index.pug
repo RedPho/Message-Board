@@ -7,12 +7,12 @@ block content
   ul
     each message in messages
       li
+        div 
+            span User: 
+            span= message.user
         div
           span Message: 
           span= message.text
-        div 
-          span User: 
-          span= message.user
         div 
           span Date:
           span= message.added
